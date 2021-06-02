@@ -2,8 +2,4 @@
 comment0.target=StartMenu
 comment1.params=
 comment1.target=StartMenu()
-comment2.params=
-comment2.target=void\ act()
-comment3.params=id
-comment3.target=void\ changeTo(int)
-numComments=4
+numComments=2

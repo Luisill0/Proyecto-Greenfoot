@@ -1,10 +1,10 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
-public class Controls extends StartMenu
+public class Controls extends Screen
 {
     public Controls()
-    {
-        this.addObject(new Text("Controls",30),300,100);
-        this.removeObjects(this.getObjects(Button.class));
+    {   
+        this.addObject(new TextDisplayer("Controls",30),300,100);
+        this.addObject(new ReturnButton(new StartMenu(),30),35,10);
     }
 }

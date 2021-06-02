@@ -1,10 +1,10 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
-public class HighScores extends StartMenu
+public class HighScores extends Screen
 {
     public HighScores()
     {
-        this.addObject(new Text("High Scores",30),300,100);
-        this.removeObjects(this.getObjects(Button.class));
+        this.addObject(new TextDisplayer("High Scores",30),300,100);
+        this.addObject(new ReturnButton(new StartMenu(),30),35,10);
     }
 }
