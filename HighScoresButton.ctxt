@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=HighScoresButton
+comment1.params=message\ textSize
+comment1.target=HighScoresButton(java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ changeScreen()
+numComments=4

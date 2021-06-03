@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ExitButton
+comment1.params=message\ textSize
+comment1.target=ExitButton(java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ changeScreen()
+numComments=4
