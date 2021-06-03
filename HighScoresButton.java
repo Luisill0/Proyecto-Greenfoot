@@ -2,8 +2,9 @@ import greenfoot.*;
 
 public class HighScoresButton extends StartMenuButton
 {
-    public HighScoresButton(String message, int textSize){
-        this.message = message;
+    private static final String message = "High Scores";
+    
+    public HighScoresButton(int textSize){
         this.setImage(new GreenfootImage(message,textSize,Color.WHITE,Color.BLACK,Color.WHITE));
     }
 

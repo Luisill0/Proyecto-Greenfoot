@@ -2,9 +2,10 @@ import greenfoot.*;
 
 public class NewGameButton extends StartMenuButton
 {
-    public NewGameButton(String message,int textSize)
+    private static final String message = "New Game";
+    
+    public NewGameButton(int textSize)
     {
-        this.message = message;
         this.setImage(new GreenfootImage(message,textSize,Color.WHITE,Color.BLACK,Color.WHITE));
     }
 
@@ -12,11 +13,11 @@ public class NewGameButton extends StartMenuButton
     {
         if(isClicked())
         {
-            changeScreen();
+           changeScreen();
         }
     }
 
     protected void changeScreen(){
-        //Iniciar el primer nivel
+       //Iniciar el primer nivel
     }
 }

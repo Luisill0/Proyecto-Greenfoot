@@ -2,8 +2,9 @@ import greenfoot.*;
 
 public class ExitButton extends StartMenuButton
 {   
-    public ExitButton(String message, int textSize){
-        this.message = message;
+    private static final String message = "Exit";
+
+    public ExitButton(int textSize){
         this.setImage(new GreenfootImage(message,textSize,Color.WHITE,Color.BLACK,Color.WHITE));
     }
 
@@ -11,12 +12,12 @@ public class ExitButton extends StartMenuButton
     {
         if(isClicked())
         {
-            changeScreen();
+           changeScreen();
         }
     }    
 
     protected void changeScreen()
     {
-        Greenfoot.stop();
+       Greenfoot.stop();
     }
 }
