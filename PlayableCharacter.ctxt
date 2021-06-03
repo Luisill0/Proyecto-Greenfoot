@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PlayableCharacter
+comment1.params=
+comment1.target=void\ handleDirection()
+comment2.params=
+comment2.target=void\ takeAction()
+numComments=3
