@@ -2,7 +2,7 @@ import greenfoot.*;
 
 public class CorridorLevel1 extends Corridor
 {
-    private static final int numberOfCorridors = 3;
+    private static final int numberOfCorridors = 2;
 
     public CorridorLevel1()
     {

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PlayerHealthDisplayer
+comment1.params=player
+comment1.target=PlayerHealthDisplayer(PlayerMage)
+comment2.params=
+comment2.target=void\ update()
+numComments=3

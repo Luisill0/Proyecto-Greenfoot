@@ -11,15 +11,14 @@ public class ScrollingDoor extends Door
     }
 
     public void act() 
-    {
-        System.out.println("x de la puerta = " + getX());          
+    {        
         if(canMove()){
             move();
         }
         if(canChange()){
             changeScene();
         }
-    
+
     }   
 
     private boolean canMove(){

@@ -1,28 +1,27 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
-/**
- * Write a description of class Alien here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Alien extends Character implements NonPlayableCharacter
 {
     Alien(double crit,double dmg,double protections,double dodge){
         super(crit,dmg,protections,dodge);
         setImage("Alien - Pose - Idle.png");
     }
-
-    public void makeAction(){
+    
+    public void receiveAttack(double dmg,double probToHit){}
+    
+    public void takeAction(){
         
     }
     
-    public void reproduceCombatAnimation(){
-        
+    public void reproduceCombatAnimation(String combatImg,String combatSound){
     }
     
     public void ability1(){
         
+    }
+    
+    public void setCombatStatus(boolean isInBattle){
+        this.isInBattle = isInBattle;
     }
     
     public void ability2(){

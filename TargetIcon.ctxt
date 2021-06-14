@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TargetIcon
+comment1.params=enemyTargeted
+comment1.target=TargetIcon(Enemy)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=boolean\ isClicked()
+comment4.params=visible
+comment4.target=void\ setVisibility(boolean)
+comment5.params=
+comment5.target=Enemy\ getTarget()
+numComments=6

@@ -14,10 +14,8 @@ public class ScrollingBackground extends Background
 
     /** Method for the background to move
      * Since it's scrolling, it's easier to move the background rather than the objects
-     * Movement is a little counter intuitive since pressing the right key lowers the X, while the left key rises it
-     *       
+     * Movement is a little counter intuitive since pressing the right key lowers the X, while the left key rises it          
      */
-
     private void move(){
         if (Greenfoot.isKeyDown("left") && canMoveLeft()) {
             setLocation(getX() + OFFSET, getY());
@@ -25,7 +23,6 @@ public class ScrollingBackground extends Background
         if (Greenfoot.isKeyDown("right") && canMoveRight()) {
             setLocation(getX() - OFFSET, getY());
         }
-        System.out.println("getX() = " + getX());
     }
 
     private boolean canMoveLeft(){

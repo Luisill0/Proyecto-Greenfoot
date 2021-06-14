@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=CombatHandler
+comment1.params=mainCharacter
+comment1.target=void\ setMainCharacter(PlayerMage)
+comment10.params=
+comment10.target=void\ victorySequence()
+comment11.params=
+comment11.target=void\ gameOverSequence()
+comment2.params=enemy
+comment2.target=void\ addEnemy(Enemy)
+comment3.params=
+comment3.target=boolean\ clickedOnEnemy()
+comment4.params=
+comment4.target=Character\ getMainCharacter()
+comment5.params=
+comment5.target=Enemy\ getEnemy()
+comment6.params=
+comment6.target=void\ highlightEnemies()
+comment7.params=
+comment7.target=void\ stopHighlight()
+comment8.params=
+comment8.target=void\ playerTurnOver()
+comment9.params=
+comment9.target=boolean\ allEnemiesDead()
+numComments=12

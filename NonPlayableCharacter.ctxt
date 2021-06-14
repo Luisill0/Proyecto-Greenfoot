@@ -1,5 +1,5 @@
 #BlueJ class context
 comment0.target=NonPlayableCharacter
 comment1.params=
-comment1.target=void\ makeAction()
+comment1.target=void\ takeAction()
 numComments=2

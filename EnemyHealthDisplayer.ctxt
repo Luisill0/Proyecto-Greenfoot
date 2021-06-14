@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=EnemyHealthDisplayer
+comment1.params=enemy
+comment1.target=EnemyHealthDisplayer(Enemy)
+comment2.params=
+comment2.target=void\ update()
+numComments=3

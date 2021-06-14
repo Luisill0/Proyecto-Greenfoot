@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Enemy
+comment1.params=crit\ dmg\ protections\ dodge
+comment1.target=Enemy(double,\ double,\ double,\ double)
+comment10.params=combatImg\ combatSound
+comment10.target=void\ reproduceCombatAnimation(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=Enemy()
+comment3.params=dmg\ probToHit
+comment3.target=void\ receiveAttack(double,\ double)
+comment4.params=
+comment4.target=void\ takeAction()
+comment5.params=
+comment5.target=void\ deathSequence()
+comment6.params=
+comment6.target=void\ addDisplays()
+comment7.params=
+comment7.target=double\ getHitPoints()
+comment8.params=
+comment8.target=double\ getMaxHealth()
+comment9.params=visible
+comment9.target=void\ setIconVisibility(boolean)
+numComments=11
