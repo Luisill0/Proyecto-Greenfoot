@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ScrollingBackground
+comment1.params=image
+comment1.target=ScrollingBackground(java.lang.String)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ move()
+comment3.text=\ Method\ for\ the\ background\ to\ move\r\n\ Since\ it's\ scrolling,\ it's\ easier\ to\ move\ the\ background\ rather\ than\ the\ objects\r\n\ Movement\ is\ a\ little\ counter\ intuitive\ since\ pressing\ the\ right\ key\ lowers\ the\ X,\ while\ the\ left\ key\ rises\ it\r\n\ \ \ \ \ \ \ \r\n
+comment4.params=
+comment4.target=boolean\ canMoveLeft()
+comment5.params=
+comment5.target=boolean\ canMoveRight()
+numComments=6
