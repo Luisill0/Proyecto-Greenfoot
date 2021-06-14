@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=NonScrollingDoor
+comment1.params=imageName\ sceneToGo
+comment1.target=NonScrollingDoor(java.lang.String,\ SupportedScene)
+comment2.params=
+comment2.target=void\ act()
+numComments=3

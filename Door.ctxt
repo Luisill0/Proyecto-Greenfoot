@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Door
+comment1.params=imageName\ sceneToGo
+comment1.target=Door(java.lang.String,\ SupportedScene)
+comment2.params=
+comment2.target=boolean\ canChange()
+comment3.params=
+comment3.target=void\ changeScene()
+numComments=4
