@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CorridorLevel1
+comment1.params=
+comment1.target=CorridorLevel1()
+comment2.params=
+comment2.target=void\ generateCorridor()
+comment3.params=
+comment3.target=void\ act()
+comment3.text=For\ testing\ purposes\ only
+numComments=4

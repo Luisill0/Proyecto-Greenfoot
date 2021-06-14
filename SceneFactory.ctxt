@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=SceneFactory
+comment1.params=supportedScene
+comment1.target=Scene\ getScene(SupportedScene)
+numComments=2

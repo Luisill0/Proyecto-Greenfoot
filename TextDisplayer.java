@@ -9,4 +9,12 @@ public class TextDisplayer extends Actor
         this.text = text;
         this.setImage(new GreenfootImage(text,size,Color.WHITE,Color.BLACK));
    }
+   
+   /** For testing purposes only */
+   public void act()
+   {
+       if(Greenfoot.isKeyDown("tab")){
+           System.out.println("x = " + getX() + "  y = " + getY());        
+       }
+   }
 }

@@ -13,11 +13,13 @@ public class NewGameButton extends StartMenuButton
     {
         if(isClicked())
         {
-           changeScreen();
+           startTheGame();
         }
     }
 
-    protected void changeScreen(){
-       //Iniciar el primer nivel
+    protected void startTheGame(){
+        Greenfoot.setWorld(LevelFactory.startLevel(SupportedLevel.LEVEL1));
     }
+    
+    protected void changeScreen(){}
 }
