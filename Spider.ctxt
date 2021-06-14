@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Spider
+comment1.params=crit\ dmg\ protections\ dodge
+comment1.target=Spider(double,\ double,\ double,\ double)
+comment2.params=
+comment2.target=void\ makeAction()
+comment3.params=
+comment3.target=void\ reproduceCombatAnimation()
+comment4.params=
+comment4.target=void\ ability1()
+comment5.params=
+comment5.target=void\ ability2()
+numComments=6

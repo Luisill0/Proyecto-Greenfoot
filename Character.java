@@ -16,17 +16,10 @@ public abstract class Character extends Actor
         this.baseDodge = dodge;
     }
     
-    public abstract void reproduceCombatAnimation();
-    public abstract void ability1();
-    public abstract void ability2();
-    public abstract void ability3();
-    public abstract void ability4();
+    public  abstract void reproduceCombatAnimation();
+    public  void ability1(){}
+    public  void ability2(){}
     
-    
-    /**
-     * Act - do whatever the Character wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
     public void act() 
     {
         // Add your action code here.

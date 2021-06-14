@@ -87,12 +87,12 @@ public class AbilityDisplayer extends Actor
         this.getWorld().addObject(selectionIcon3,150,323);
         this.getWorld().addObject(selectionIcon4,210,323);
         
-        this.getWorld().addObject(descriptionIcon1,120,375);
-        this.getWorld().addObject(descriptionIcon2,120,375);
-        this.getWorld().addObject(descriptionIcon3,120,375);
-        this.getWorld().addObject(descriptionIcon4,120,375);
-        this.getWorld().addObject(descriptionIcon5,120,375);
-        
+        this.getWorld().addObject(descriptionIcon1,120,372);
+        this.getWorld().addObject(descriptionIcon2,120,372);
+        this.getWorld().addObject(descriptionIcon3,120,372);
+        this.getWorld().addObject(descriptionIcon4,120,372);
+        this.getWorld().addObject(descriptionIcon5,120,372);
+       
         this.getWorld().addObject(new AbilitySelectionIcon("Icon - HUD bar.jpg"),250,393);
     }
     
