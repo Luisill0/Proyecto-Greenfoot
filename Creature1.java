@@ -4,14 +4,15 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Creature extends Character implements NonPlayableCharacter
+public class Creature1 extends Character implements NonPlayableCharacter
 {
     // instance variables - replace the example below with your own
     private int dropItemRate;
 
-    Creature(double crit,double dmg,double protections,double dodge){
+    Creature1(double crit,double dmg,double protections,double dodge){
         super(crit,dmg,protections,dodge);
         dropItemRate = 15;
+        setImage("Example2.jpg");
     }
 
     public void makeAction(){
@@ -19,10 +20,6 @@ public class Creature extends Character implements NonPlayableCharacter
     }
     
     public void dropItem(){
-        
-    }
-    
-    public void reproduceIdleAnimation(){
         
     }
     

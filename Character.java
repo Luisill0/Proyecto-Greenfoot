@@ -16,7 +16,6 @@ public abstract class Character extends Actor
         this.baseDodge = dodge;
     }
     
-    public abstract void reproduceIdleAnimation();
     public abstract void reproduceCombatAnimation();
     public abstract void ability1();
     public abstract void ability2();
