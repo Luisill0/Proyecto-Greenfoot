@@ -12,7 +12,7 @@ public class CorridorLevel1 extends Corridor
             Greenfoot.stop(); //Temporary while level 2 is implemented
         }       
     }  
-    
+
     private void generateCorridor() throws EndOfLevelException{
         if(Corridor.corridorsPassed > numberOfCorridors){
             throw new EndOfLevelException();

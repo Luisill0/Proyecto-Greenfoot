@@ -8,7 +8,7 @@ public class ReturnButton extends Button
     public ReturnButton(World previous,int textSize)
     {
         this.previous = previous;
-        this.setImage(new GreenfootImage(message,textSize,Color.WHITE,Color.BLACK,Color.WHITE));
+        this.setImage(new GreenfootImage(message,textSize,Color.BLACK,Color.WHITE));
     }   
 
     public void act() 

@@ -2,4 +2,8 @@
 comment0.target=StartMenu
 comment1.params=
 comment1.target=StartMenu()
-numComments=2
+comment2.params=
+comment2.target=void\ started()
+comment3.params=
+comment3.target=void\ stopped()
+numComments=4

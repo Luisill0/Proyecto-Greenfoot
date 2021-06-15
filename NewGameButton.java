@@ -6,7 +6,7 @@ public class NewGameButton extends StartMenuButton
     
     public NewGameButton(int textSize)
     {
-        this.setImage(new GreenfootImage(message,textSize,Color.WHITE,Color.BLACK,Color.WHITE));
+        this.setImage(new GreenfootImage(message,textSize,Color.BLACK,Color.WHITE));
     }
 
     public void act() 

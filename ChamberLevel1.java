@@ -5,11 +5,12 @@ public class ChamberLevel1 extends Chamber
     private static final int numberOfChambers = 3;
     private CombatHandler combatHandler = new CombatHandler();  
     private PlayerMage playerMage;
+    
     public ChamberLevel1()
     {                
         try{
             generatePlayer();
-            generateChamber();
+            generateChamber();            
         }catch(CombatChamberException c){
             NonScrollingBackground background = new NonScrollingBackground("bglv1chamberempty.jpg");
             this.addObject(background,300,132);
@@ -58,5 +59,9 @@ public class ChamberLevel1 extends Chamber
         }        
         NonScrollingBackground background = new NonScrollingBackground("bglv1chamber.jpg"); 
         this.addObject(background,300,132);
-    }        
+    }   
+    
+    public void stopped(){
+        MusicPlayer.pauseMusic();
+    }
 }

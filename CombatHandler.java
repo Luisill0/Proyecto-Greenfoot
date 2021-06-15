@@ -89,6 +89,7 @@ public class CombatHandler
     }
     
     public void gameOverSequence(){
+        MusicPlayer.stopMusic();
         Greenfoot.setWorld(new GameOver());
     }
 }
