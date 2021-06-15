@@ -12,11 +12,13 @@ public class ExitButton extends StartMenuButton
     {
         if(isClicked())
         {
-           changeScreen();
+           exitGame();
         }
     }    
-
-    protected void changeScreen()
+    
+    protected void changeScreen(){}
+    
+    protected void exitGame()
     {
        Greenfoot.stop();
     }

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ExampleActor
+comment0.text=\r\n\ Class\ used\ for\ the\ sole\ purpose\ of\ testing\ interactions\ with\ the\ Door\ class\r\n\ will\ be\ removed\ once\ the\ class\ regarding\ characters\ is\ implemented\r\n
+comment1.params=background\ posX
+comment1.target=ExampleActor(Background,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ move()
+comment4.params=
+comment4.target=void\ moveInScroll()
+comment5.params=
+comment5.target=int\ getPosX()
+numComments=6
