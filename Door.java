@@ -12,7 +12,7 @@ public abstract class Door extends Actor
     }
     
     protected boolean canChange(){
-        return isTouching(ExampleActor.class) && Greenfoot.isKeyDown("up");
+        return isTouching(PlayerMage.class) && Greenfoot.isKeyDown("up");
     }
     
     protected void changeScene(){        

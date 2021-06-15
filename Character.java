@@ -29,6 +29,10 @@ public abstract class Character extends Actor
         return this.canTakeAction;
     }        
     
+    public boolean getCombatStatus(){
+        return isInBattle;
+    }
+    
     public abstract void setCombatStatus(boolean isInBattle);
     
     protected abstract void receiveAttack(double dmg,double probToHit);

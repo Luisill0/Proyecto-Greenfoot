@@ -19,16 +19,10 @@ public class CorridorLevel1 extends Corridor
         }        
         ScrollingBackground background = new ScrollingBackground("bglv1corridor.jpg");
         this.addObject(background,600,132);
-        this.addObject(new ExampleActor(background,50),50,getHeight()/2+6);
+        PlayerMage playerMage = new PlayerMage().setStats(0.5,5.0,3.0,6.0).setDefaultLocation(35,170);
+        this.addObject(playerMage,35,175);
+        playerMage.addDisplays();
         this.addObject(new ScrollingDoor("door1.png",background,SupportedScene.CHAMBERLEVEL1),706,112);
-        this.setPaintOrder(ExampleActor.class,Door.class);   
-    }
-    
-    /** For testing purposes only */
-    public void act(){
-        if(Greenfoot.isKeyDown("space")){
-            System.out.println("corridorsPassed = " + Corridor.corridorsPassed);
-            System.out.println("level width" + this.getWidth());
-        }
+        this.setPaintOrder(PlayerMage.class,Door.class);   
     }
 }

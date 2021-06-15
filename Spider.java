@@ -22,10 +22,6 @@ public class Spider extends Enemy implements NonPlayableCharacter
         return this;
     }
     
-    public void act(){
-
-    }
-    
     public void addDisplays(){
         this.healthDisplayer = new EnemyHealthDisplayer(this);
         healthDisplayer.update();
@@ -51,7 +47,14 @@ public class Spider extends Enemy implements NonPlayableCharacter
     }    
     
     public void reproduceCombatAnimation(String combatImg,String combatSound){
-        
+        this.setImage(combatImg);
+        Greenfoot.playSound(combatSound);
+        Greenfoot.delay(50);
+        resetImage();
+    }
+    
+    private void resetImage(){
+        this.setImage("Spider - Pose - Idle.png");
     }
     
     public void setCombatStatus(boolean isInBattle){
@@ -62,11 +65,13 @@ public class Spider extends Enemy implements NonPlayableCharacter
         double dmgToDeal = (baseDmg*0.8) + (Greenfoot.getRandomNumber(100) < baseCritChance ? baseDmg:0);
         double probToHit = 80.0;
         combatHandler.getMainCharacter().receiveAttack(dmgToDeal,probToHit);
+        reproduceCombatAnimation("Spider - Ability - Empale.png","spiderimpale.mp3");
     }
     
     public void ability2(){
         double dmgToDeal = (baseDmg*1.10) + (Greenfoot.getRandomNumber(100) < baseCritChance+25 ? baseDmg*1.10:0);
         double probToHit = 80.0;
         combatHandler.getMainCharacter().receiveAttack(dmgToDeal,probToHit);
+        reproduceCombatAnimation("Spider - Ability - Slice.png","spiderslash.mp3");
     }        
 }

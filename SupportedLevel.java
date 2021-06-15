@@ -1,4 +1,4 @@
 public enum SupportedLevel  
 {
-    LEVEL1;
+    LEVEL1,LEVEL2;
 }

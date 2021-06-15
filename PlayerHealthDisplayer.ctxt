@@ -4,4 +4,6 @@ comment1.params=player
 comment1.target=PlayerHealthDisplayer(PlayerMage)
 comment2.params=
 comment2.target=void\ update()
-numComments=3
+comment3.params=
+comment3.target=boolean\ isVisible()
+numComments=4

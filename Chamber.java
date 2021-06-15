@@ -8,6 +8,6 @@ public class Chamber extends Scene
     {    
         super(600,400,1,true); 
         chambersPassed++;
-        this.addObject(new TextDisplayer("Chamber: " + chambersPassed,20),39,275);
+        this.addObject(new TextDisplayer("Chamber: " + chambersPassed,20),300,275);
     }           
 }

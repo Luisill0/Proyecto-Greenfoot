@@ -8,6 +8,8 @@ public class LevelFactory
         switch(levelToStart){
             case LEVEL1:
                 return new ChamberLevel1();
+            case LEVEL2:
+                return new ChamberLevel2();
             default:
                 return null;
         }
