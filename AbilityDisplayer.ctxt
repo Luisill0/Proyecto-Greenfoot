@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=AbilityDisplayer
+comment1.params=playerCharacter
+comment1.target=AbilityDisplayer(Character)
+comment2.params=
+comment2.target=void\ displayAbilities()
+comment3.params=
+comment3.target=void\ detectCollisionWithAbilityIcon()
+comment4.params=
+comment4.target=void\ displayAbilityDescription()
+comment5.params=
+comment5.target=void\ act()
+numComments=6
